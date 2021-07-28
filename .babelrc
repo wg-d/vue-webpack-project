@@ -1,0 +1,20 @@
+{
+	"presets": [
+		["env"],
+		"es2015",
+		"stage-3"
+	],
+  	"plugins": [
+		[
+			"transform-runtime", 
+			{
+				"helpers": false,
+				"polyfill": false,
+				"regenerator": true,
+				"moduleName": "babel-runtime"
+			}
+			
+		],
+		"transform-remove-strict-mode" 
+	]
+}

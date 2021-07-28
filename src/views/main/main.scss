@@ -1,0 +1,46 @@
+.main {
+  padding: 0;
+  margin: 0;
+
+  .content {
+    position: absolute;
+    top: 0;
+    bottom: 55px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+
+  .mint-tabbar {
+    z-index: 9999;
+    background-color: #1F0206;
+
+    .mint-tab-item {
+      z-index: 9999;
+      border-top: 0.02rem solid #1F0206;
+
+      .mint-tab-item-label {
+        color: #FFFFFF;
+      }
+    }
+
+    .mint-tab-item.is-selected {
+      background-color: #1F0206;
+
+      .mint-tab-item-label {
+        color: #FDD344;
+      }
+    }
+  }
+}
+
+.footerNo {
+  .content {
+    height: 100%;
+    ;
+  }
+
+  .mint-tabbar {
+    display: none;
+  }
+}
